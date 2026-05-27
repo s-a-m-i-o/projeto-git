@@ -34,3 +34,5 @@
 ## Proximos passos
 - JS: Adicionar um Stop na primeira e ultima imagem
 - Adicionar titulo no <h3 class="titulo-semana"></h3> pelo Js, de acordo com a semana especifica
+- Aprender e entender o que é markdown
+- Finalizar projeto e adicionar README
