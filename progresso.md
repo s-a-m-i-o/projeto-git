@@ -21,3 +21,16 @@
 - Seletores perigosos com vígula
 - Fluxo git completo num projeto real
 - Criar e conectar repositório do zero
+
+## Aula 3 - projeto : Quadro de Anúncios
+- Repositório: https://github.com/s-a-m-i-o/quadro-de-anuncios
+- Objetivo: viewer de imagens semanais com navegação anterior/próxima
+- Mobile First desde o início
+- Criado site HTML CSS e JS
+- HTML semantico, importado links externos no head (googleFots, font awesome)
+- CSS: separado por, reset, root e estilo, tres arquivos diferentes
+- JS: função addEventListener: botão direiro proxima imagem, botão esquerdo imagem anterior
+
+## Proximos passos
+- JS: Adicionar um Stop na primeira e ultima imagem
+- Adicionar titulo no <h3 class="titulo-semana"></h3> pelo Js, de acordo com a semana especifica
