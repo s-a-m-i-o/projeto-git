@@ -31,8 +31,11 @@
 - CSS: separado por, reset, root e estilo, tres arquivos diferentes
 - JS: função addEventListener: botão direiro proxima imagem, botão esquerdo imagem anterior
 
-## Proximos passos
-- JS: Adicionar um Stop na primeira e ultima imagem
-- Adicionar titulo no <h3 class="titulo-semana"></h3> pelo Js, de acordo com a semana especifica
-- Aprender e entender o que é markdown
+## Continuação da aula 3
+- JS: Adicionado um Stop na primeira e ultima imagem
+- Criando novo Index e paginas - REUNIÃO DA SEMANA, REUNIÃO PUBLICA, LIMPEZA e PREGAÇÃO
+- Adicionado botão de voltar nas paginas
+- JS: Adiciondo menu hamburger
+- Criado README.md
 - Finalizar projeto e adicionar README
+- Projeto finalizado e publicado - https://s-a-m-i-o.github.io/quadro-de-anuncios/
