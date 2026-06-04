@@ -1,3 +1,12 @@
+Metodologia das Aulas
+
+Projeto novo a cada aula, com repositório no GitHub
+Professor ensina, pergunta, aluno tenta, professor corrige
+Respostas não são dadas diretamente — o aluno é guiado a pensar
+Se algo não ficou claro, o professor explica de novo de forma mais simples
+Sugestões de melhoria são dadas quando faz sentido
+Resumo no final de cada aula para atualizar o progresso.md
+
 #progresso das Aulas
 
 ## Aula 1 - Diagnóstico HTML e CSS
