@@ -84,3 +84,18 @@ Resumo no final de cada aula para atualizar o progresso.md
 - > — seleciona apenas filhos diretos
 - + — seleciona o elemento imediatamente após outro
 - ~ — seleciona todos os irmãos após um elemento
+
+## Aula 6 - CSS Avançado: CSS Grid
+
+- Repositório: https://github.com/s-a-m-i-o/css-grid
+- Projeto: Dashboard com layout completo usando Grid
+- CSS Grid trabalha em duas dimensões (linhas e colunas) diferente do Flexbox que trabalha em uma
+- display: grid transforma o elemento em container Grid
+- grid-template-columns define o tamanho e quantidade de colunas
+- grid-template-rows define o tamanho e quantidade de linhas
+- Unidade fr (fraction) ocupa o espaço disponível restante
+- grid-column: 1/3 faz o elemento ocupar da linha de grade 1 até a 3 (duas colunas)
+- Os números do grid-column representam as linhas de grade, não as colunas
+- Grid aninhado: um grid dentro de outro, contextos independentes que não conflitam
+- Flex e Grid podem ser usados juntos no mesmo projeto
+- ::after pode ser usado como elemento fantasma para equilibrar layout flex
