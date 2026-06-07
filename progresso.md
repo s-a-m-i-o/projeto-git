@@ -99,3 +99,32 @@ Resumo no final de cada aula para atualizar o progresso.md
 - Grid aninhado: um grid dentro de outro, contextos independentes que não conflitam
 - Flex e Grid podem ser usados juntos no mesmo projeto
 - ::after pode ser usado como elemento fantasma para equilibrar layout flex
+
+## Aula 7 - Reforço: Flexbox Completo e Position
+
+- Repositório: https://github.com/s-a-m-i-o/reforco-flexbox
+- Projeto: Página de experimentos com Flexbox e Position
+
+- flex-wrap: wrap - elementos quebram pra próxima linha quando não couberem (usado em grids de cards)
+- gap: espaço entre elementos, melhor que margin pq não afeta as bordas externas (ex: gap: 20px 40px - primeiro linhas, segundo colunas)
+- align-content: alinha as linhas inteiras no eixo vertical, só funciona com flex-wrap: wrap (ex: space-between entre linhas de cards)
+- flex-grow: define quanto o elemento cresce em proporção (ex: grow: 1 todos iguais, grow: 2 dobro dos outros)
+- flex-shrink: define quanto o elemento encolhe em proporção (ex: shrink: 0 não encolhe nunca)
+- flex-basis: tamanho base do elemento antes de crescer ou encolher (ex: basis: 200px começa com 200px)
+- flex: atalho que combina os três - flex: grow shrink basis (ex: flex: 0 1 200px para cards)
+- Para cards usar flex: 0 1 200px - não cresce, encolhe se precisar, começa com 200px
+- align-self: alinha um filho específico diferente dos outros (ex: item2 no fundo enquanto outros ficam no topo)
+- order: muda a ordem visual sem mexer no HTML (ex: order: 1 aparece antes de order: 2)
+
+- display: block - ocupa a linha inteira, empurra próximo elemento pra baixo (ex: div, p, h1)
+- display: inline - fica no fluxo do texto, não aceita width/height (ex: span, a, strong)
+- display: inline-block - fica no fluxo do texto mas aceita width/height (ex: destacar palavra com tamanho definido)
+- display: flex - controle total dos filhos do container (ex: alinhar cards lado a lado)
+
+- position: static - padrão de todo elemento, segue o fluxo normal da página
+- position: relative - serve de referência pro absolute do filho, e move o elemento em relação à sua própria posição original
+- position: absolute - sai do fluxo da página, se posiciona em relação ao pai com position relative (ex: selo de oferta no card)
+- position: fixed - fica fixo na janela do navegador independente do scroll (ex: menu hamburger no mobile)
+- position: sticky - rola com a página mas gruda quando chega no ponto definido (ex: header que gruda no topo ao rolar)
+- Centralizar com position: top: 50%, left: 50%, transform: translate(-50%, -50%)
+- top, right, bottom, left: definem a posição do elemento a partir de cada lado
