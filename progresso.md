@@ -128,3 +128,26 @@ Resumo no final de cada aula para atualizar o progresso.md
 - position: sticky - rola com a página mas gruda quando chega no ponto definido (ex: header que gruda no topo ao rolar)
 - Centralizar com position: top: 50%, left: 50%, transform: translate(-50%, -50%)
 - top, right, bottom, left: definem a posição do elemento a partir de cada lado
+
+## Aula 8 - CSS Moderno: clamp(), :has() e Container Queries
+
+- Repositório: https://github.com/s-a-m-i-o/css-moderno
+- Projeto: Página de experimentos com CSS moderno
+
+- clamp(): define um valor com mínimo, ideal e máximo - clamp(16px, 4vw, 48px)
+- clamp() escala suavemente diferente das media queries que mudam de forma abrupta
+- vw = porcentagem da largura da tela, vh = porcentagem da altura da tela
+- clamp() funciona pra qualquer valor numérico: font-size, width, padding, gap
+- clamp() e media queries se complementam: clamp() pra valores que escalam, media queries pra mudanças de layout
+
+- :has() seleciona um elemento baseado no que ele contém
+- .card:has(img) = seleciona todo card que tem uma imagem dentro
+- :has() permite estilizar o pai baseado no filho, sem classes extras no HTML
+- :has() pode trabalhar sozinho (estrutura do HTML) ou com JS (classes dinâmicas)
+
+- container-type: inline-size - define o elemento como ponto de referência pro container query
+- @container (min-width: 400px) - aplica estilo quando o container tiver aquela largura
+- container queries olham o tamanho do elemento pai, media queries olham o tamanho da tela
+- min-width: ativa quando a tela for maior ou igual ao valor (Mobile First)
+- max-width: ativa quando a tela for menor ou igual ao valor (Desktop First)
+- Mobile First usa min-width, Desktop First usa max-width
