@@ -169,3 +169,14 @@ Resumo no final de cada aula para atualizar o progresso.md
 - Dois @media iguais podem ser unidos em um só bloco
 - Hover nos ícones de redes sociais com filter drop-shadow colorido
 - position sticky pra headers que grudam no topo, fixed pra elementos sempre visíveis
+
+## Provas Finais de CSS
+
+- Prova 1 - HTML: 7,4/10 - Aprovado
+- Pontos fracos: sintaxe do meta charset/viewport, conceito de atributos HTML
+
+- Prova 2 - CSS: 6,6/10 - Aprovado com ressalvas
+- Pontos fracos: scale sem deg no @keyframes, min-width vs max-width no Mobile First, sintaxe do CSS Grid
+
+- Prova 3 - HTML + CSS: 9,4/10 - Aprovado com excelência
+- Pontos de atenção: type email nos inputs, min-height em vez de height fixo, @keyframes pulsar começar em scale(1)
